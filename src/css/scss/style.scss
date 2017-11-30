@@ -1,0 +1,159 @@
+$amarelo: #fcca03;
+$preto: black;
+$cinza-escuro: #1e1e1e;
+$cinza-claro: #353535;
+$cinza-areia: #b4aea3;
+$branco:white;
+$roboto: 'Roboto',
+sans-serif;
+body {
+    font-family: $roboto;
+}
+
+a {
+    color: $preto !important;
+    font-family: $roboto !important;
+}
+
+//informações
+.information {
+    background-color: $cinza-escuro;
+    color: $branco;
+    font-style: normal !important;
+    font-size: small;
+}
+
+.info {
+    padding: 5px;
+}
+
+.mid-socials {
+    padding: 5px;
+}
+
+.phones-logo {
+    background-color: $cinza-claro;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.phone {
+    color: $branco;
+    font-size: 20px;
+}
+
+.adress {
+    color: $cinza-areia;
+    font-size: 13px;
+}
+
+.logo {
+    display: block;
+}
+
+.fa-phone-nav {
+    background-color: $amarelo;
+    border-radius: 0px !important;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+//menu
+.navbar {
+    background-color: $amarelo !important;
+    font-size: 15px;
+}
+
+//formulario
+form {
+    margin-bottom: 100px;
+}
+
+.div-field {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.btn-submit {
+    color: $branco;
+    float: right;
+    width: 30%;
+    background-color: $amarelo;
+    border-radius: 0px !important;
+    margin-top: 10px;
+}
+
+//telefones e email para curriculos
+.contact-phones {
+    margin-bottom: 25px;
+}
+
+.contact-work {
+    max-width: 45% !important;
+    margin-top: 150px;
+}
+
+.contact {
+    font-weight: bold;
+    font-family: $roboto;
+    color: $amarelo;
+    margin-bottom: 7px;
+}
+
+div.contact-us {
+    padding-top: 40px;
+}
+
+h3.contact-us {
+    font-weight: bold;
+}
+
+p.contact-us {}
+
+.phones {
+    color: $cinza-areia;
+    font-size: 15px;
+}
+
+.curriculum {
+    color: $cinza-areia;
+    font-size: 15px;
+}
+
+.fa-phone-contact {
+    background-color: #fcca03;
+    color: #fff;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+}
+
+.fa-users {
+    background-color: $amarelo;
+    color: $branco;
+    padding: 10px;
+}
+
+//rodapé
+footer {
+    background-image: url("../img/footer-image.jpg");
+}
+
+footer img {
+    margin-top: 25%;
+}
+
+footer p {
+    margin-top: 10%;
+    color: $cinza-areia;
+}
+
+// bootstrap
+@import '../../../node_modules/bootstrap/scss/bootstrap';

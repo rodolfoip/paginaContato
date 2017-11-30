@@ -1,0 +1,22 @@
+{
+  "name": "contato",
+  "version": "1.0.0",
+  "description": "pagina de contato com formulario",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodolfoip/paginaContato.git"
+  },
+  "author": "Rodolfo Ilce Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodolfoip/paginaContato/issues"
+  },
+  "homepage": "https://github.com/rodolfoip/paginaContato#readme"
+}
