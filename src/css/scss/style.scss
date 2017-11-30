@@ -49,6 +49,7 @@ a {
 
 .logo {
     display: block;
+    margin-left: 7px;
 }
 
 .fa-phone-nav {
@@ -145,15 +146,22 @@ p.contact-us {}
 footer {
     background-image: url("../img/footer-image.jpg");
 }
-
+footer .row{
+    align-items: center;
+}
 footer img {
     margin-top: 25%;
 }
-
 footer p {
     margin-top: 10%;
     color: $cinza-areia;
 }
-
+footer .col-md-3{
+    margin-left: 40px;
+}
+footer h4{
+    font-weight: bold;
+    color: $branco;
+}
 // bootstrap
 @import '../../../node_modules/bootstrap/scss/bootstrap';
